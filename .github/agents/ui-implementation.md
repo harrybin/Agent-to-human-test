@@ -39,10 +39,10 @@ Whenever you need to make **any** frontend technology decision — including but
 **You must NOT decide unilaterally.** Instead:
 
 1. Create a GitHub issue in this repository with the label `decision-needed`.
-2. Assign the issue to **@harrybin**.
+2. Assign the issue to **@harrybin** and **@wulfland**.
 3. Set the issue title to: `[Decision Needed] <short description>`.
 4. In the issue body describe the options, trade-offs, and your recommendation.
-5. Pause work on the affected area until @harrybin has approved or redirected.
+5. Pause work on the affected area until @harrybin or @wulfland has approved or redirected.
 
 ### UI Layout & UX Decisions
 
@@ -72,6 +72,6 @@ Whenever you need to make **any** decision that affects the visual layout or use
 
 ## Constraints
 
-- Do **not** introduce new npm packages without a decision issue approved by @harrybin.
+- Do **not** introduce new npm packages without a decision issue approved by @harrybin or @wulfland.
 - Do **not** change the overall layout or navigation structure without a UX decision issue approved by @harrybin.
 - Do **not** commit broken or visually broken UI changes to the main branch.

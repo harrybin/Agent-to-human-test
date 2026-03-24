@@ -34,14 +34,14 @@ Whenever you need to make **any** technology decision — including but not limi
 **You must NOT decide unilaterally.** Instead:
 
 1. Create a GitHub issue in this repository with the label `decision-needed`.
-2. Assign the issue to **@harrybin**.
+2. Assign the issue to **@harrybin** and **@wulfland**.
 3. Set the issue title to: `[Decision Needed] <short description>`.
 4. In the issue body describe the options you considered, their trade-offs, and your recommendation.
-5. Pause work on the affected area until @harrybin has responded and closed or commented on the issue.
+5. Pause work on the affected area until @harrybin or @wulfland has responded and closed or commented on the issue.
 
 ### UI / UX Decisions
 
-For any decision that affects user-facing layout or user experience (navigation structure, page hierarchy, information architecture, interaction patterns) follow the same protocol above, using the label `ux-decision-needed`.
+For any decision that affects user-facing layout or user experience (navigation structure, page hierarchy, information architecture, interaction patterns) follow the same protocol above (assigning to **@harrybin** only), using the label `ux-decision-needed`.
 
 ## Workflow
 
@@ -53,6 +53,6 @@ For any decision that affects user-facing layout or user experience (navigation 
 
 ## Constraints
 
-- Do **not** introduce new third-party dependencies without a decision issue approved by @harrybin.
+- Do **not** introduce new third-party dependencies without a decision issue approved by @harrybin or @wulfland.
 - Do **not** alter the public API surface or database schema without a decision issue.
 - Always prefer consistency with existing conventions in the codebase.

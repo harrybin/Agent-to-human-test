@@ -41,10 +41,10 @@ Whenever you need to make **any** backend technology decision — including but 
 **You must NOT decide unilaterally.** Instead:
 
 1. Create a GitHub issue in this repository with the label `decision-needed`.
-2. Assign the issue to **@harrybin**.
+2. Assign the issue to **@harrybin** and **@wulfland**.
 3. Set the issue title to: `[Decision Needed] <short description>`.
 4. In the issue body describe the options, trade-offs, and your recommendation.
-5. Pause work on the affected area until @harrybin has approved or redirected.
+5. Pause work on the affected area until @harrybin or @wulfland has approved or redirected.
 
 ### API Contract Changes
 
@@ -63,6 +63,6 @@ Any change to a public API endpoint (new route, changed request/response shape, 
 
 ## Constraints
 
-- Do **not** introduce new NuGet packages without a decision issue approved by @harrybin.
+- Do **not** introduce new NuGet packages without a decision issue approved by @harrybin or @wulfland.
 - Do **not** break existing API contracts without prior coordination.
 - Do **not** commit broken or untested code to the main branch.
